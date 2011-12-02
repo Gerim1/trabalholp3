@@ -1,0 +1,128 @@
+html {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    }
+
+body {
+    width: 90%;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid darkcyan;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav{
+    background-color: cornflowerblue;
+    height: 60px;
+}
+
+nav a{
+    font-size: 12px;
+    padding: 8px 40px;
+}
+
+nav a:link{
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+nav a:hover
+{
+    background-color: #fff;
+    color: cornflowerblue;
+    
+    
+}
+
+article {
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    height: 80px;
+    text-align: center;
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+header h1 {
+    color: #fff;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: darkcyan;
+    letter-spacing: 3px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: smaller;
+    color: white;
+}
+
+.bomnegocio {
+    color: green;
+}
+.maunegocio {
+    color: red;
+}
+
+.sucesso {
+    background-color: red;
+}
+
+form {
+    margin: auto;
+    min-width: 200px;
+    
+}
+
+form dt {
+    font-weight: bold;
+    float: left;
+    padding: 4px;
+    
+}
+
+form dd {
+    text-align: left;
+    padding: 2px;
+}
+
+td, th {
+    min-width:50px;
+}
+
+table {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    
+}
+
+table, td, th {
+    border: 1px double black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+thead td, th {
+    background-color: darkcyan;
+}
+
+.formSub {
+    padding: 5px;
+    font-size: 14px;
+}
